@@ -67,16 +67,8 @@ repositorio.
 En el `README.md` cuéntanos cómo pensaste y te acercaste a los usuarios al
 desarrollar tu producto y cuál fue tu proceso para definir el producto final a
 nivel de experiencia y de interfaz. Si tienes fotos de entrevistas,
-cuestionarios y/o sketches compártelos. Además, detalla:
-
-* quiénes son los principales usarios de producto
-* cuáles son los objetivos de estos usarios en relación con el producto
-* cuáles son los dato más relevantes que el usuario quiere ver en la interfaz y
-  por qué. Cómo los descubriste.
-* cuándo es que el usuario revisar normalmente estos datos
-* cómo crees que el producto que estás creando les está resolviendo sus
-  problemas
-* cómo fue tu proceso de diseño
+cuestionarios y/o sketches compártelos. La especificación de ésta la encontrarás 
+en el apartado de entregables.
 
 ### UI
 
@@ -221,27 +213,19 @@ Features/características extra sugeridas:
   existen algunos servicios como [Firebase](https://firebase.google.com/products/database/) 
   que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
 
-### ¿Qué se requiere?
+## Entrega
 
-- Trabajar en squad
-- Tener una planificación
-- La definición del diseño
-- Diseño mobile friendly
-- Desplegar el producto en Github Pages
-- Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar [Firebase](https://firebase.google.com/).
-
+El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
+interfaz será desplegada usando GitHub pages u otro servicio de hosting que 
+puedas haber encontrado en el camino.
 
 ### Entregables
 
+#### 1) Definición del producto
 
-
-1) Definición del producto
-
-
-
-En el README.md cómo conociste el mercado de las redes sociales, cómo descubriste las necesidades de los usuarios, cómo llegaste  la definición final de tu producto. Es importante que detalles:
-
-
+En el `README.md` cómo conociste el mercado de las redes sociales, cómo 
+descubriste las necesidades de los usuarios, cómo llegaste  la definición final 
+de tu producto. Es importante que detalles:
 
 - Cuáles son los elementos básicos que tiene una red social
 - Quiénes son los principales usuarios de producto
@@ -251,49 +235,33 @@ En el README.md cómo conociste el mercado de las redes sociales, cómo descubri
 - Cómo verificaste que el producto les está resolviendo sus problemas
 - Cómo te asegurarás que estos usuarios usen este producto
 
+Para poder llegar a estas definiciones te recomendamos ver: benchmarks, 
+entrevistas con usuarios y tests de usabilidad.
 
-Para poder llegar a estas definiciones te recomendamos ver: benchmarks, entrevistas con usuarios y tests de usabilidad.
+#### 2) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
 
-
-
-2) Diseño de la Interfaz de Usuario (prototipo de alta fidelidad)
-
-
-
-Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y con eso  
-
-deberás diseñar la Interfaz de Usuario (UI por sus siglas en inglés) de esta red social que siga este flujo. Para esto debes utilizar la herramienta de diseño visual de tu preferencia. Nosotros te recomendamos Figma dado que es una herramienta que funciona en el navegador y puedes crear una cuenta gratis. Sin embargo, eres libre de utilizar otros editores gráficos como Illustrator,Photoshop, PowerPoint, Keynote, etc.
-
-
+Debes definir cuál será el flujo que seguirá el usuario dentro de tu producto y 
+con eso deberás diseñar la Interfaz de Usuario (UI por sus siglas en inglés) de 
+esta red social que siga este flujo. Para esto debes utilizar la herramienta de 
+diseño visual de tu preferencia. Nosotros te recomendamos Figma dado que es una 
+herramienta que funciona en el navegador y puedes crear una cuenta gratis. Sin 
+embargo, eres libre de utilizar otros editores gráficos como Illustrator, 
+Photoshop, PowerPoint, Keynote, etc.
 
 Este diseño debe representar la solución que se implementará finalmente en código.
 
+Tu diseño debe seguir los fundamentos de visual design, como: contraste, 
+alineación, jerarquía, entre otros. Tip: revisa el contenido de UX de la unidad 
+de visual design.
 
+#### 3) Implementación de la Interfaz de Usuario
 
-Tu diseño debe seguir los fundamentos de visual design, como: contraste, alineación, jerarquía, entre otros. Tip: revisa el contenido de UX de la unidad de visual design.
+La idea para este producto es que el producto a desarrollar siga los 
+lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo 
+largo de la implementación que los elementos propuestos están siendo 
+implementados correctamente. (Hint: testing)
 
-
-
-Implementación de la Interfaz de Usuario (HTML/CSS/JS)
-
-
-
-La idea para este producto es que el producto a desarrollar siga los lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo largo de la implementación que los elementos propuestos están siendo implementados correctamente. (Hint: testing)
-
-
-
-
-
-
-
-### Entrega
-
-
-
-El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages, Firebase o Heroku.
-
-
-### Evaluación
+## Evaluación
 
 UX
 
