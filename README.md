@@ -188,6 +188,39 @@ decisiones:
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
 
+### Hacker edition
+
+Un gran desafío de este proyecto es la coordinación y el trabajo en equipo. Para 
+lograr esto con éxito debes apoyarte en las habilidades de comunicación y de dar 
+y recibir feedback.
+
+Esperamos que logres comunicar tus ideas a tu equipo y a los demás, teniendo 
+capacidad de síntesis y articulando tus ideas con claridad. Tratas de que tu 
+equipo te entienda, facilitando siempre el diálogo en dentro del squad.
+
+Para eso, debes valorar y escuchar los comentarios y críticas de los demás, 
+pudiendo rescatar aquellos aspectos que sirven para tu crecimiento. Busca 
+instancias de feedback, entregando siempre tu opinión de manera constructiva, 
+fundamentada y coherente, con el propósito de ayudar a tus compañeras. Estos 
+comentarios los debes hacer de manera honesta, empática e inmediata.
+
+Además, busca trabajar de manera coordinada y contribuye al objetivo común, 
+entrega ideas para la construcción de la red social y respeta el trabajo de tus 
+compañeras. Para esto, entrega tu trabajo a tiempo y colabora con el objetivo 
+final del proyecto, lo que puede implicar ayudar a los demás miembros del equipo 
+con sus pendientes, con el fin de entregar una red social de calidad.
+
+Features/características extra sugeridas:
+
+* Crear post con imágenes
+* Reemplazar `localStorage`, ¿le has compartido tu red social a tus amigxs? Si 
+  lo has hecho, te darás cuenta que ellxs no pueden ver tus posts ni tu el de 
+  ellxs. Esto es debido a que `localStorage` almacena dichos datos localmente 
+  (en tu navegador) por lo que dichos datos no se comparten, para esto podrías
+  implementar una base de datos pero el tiempo podría jugar en contra, para ello
+  existen algunos servicios como [Firebase](https://firebase.google.com/products/database/) 
+  que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
+
 ### ¿Qué se requiere?
 
 - Trabajar en squad
@@ -249,17 +282,7 @@ La idea para este producto es que el producto a desarrollar siga los lineamiento
 
 
 
-### Hacker edition
 
-
-
-Un gran desafío de este proyecto es la coordinación y el trabajo en equipo. Para lograr esto con éxito debes apoyarte en las habilidades de comunicación y de dar y recibir feedback.
-
-Esperamos que logres comunicar tus ideas a tu squad y a los demás, teniendo capacidad de síntesis y articulando tus ideas con claridad. Tratas de que tu equipo te entienda, facilitando siempre el diálogo en dentro del squad.
-
-Para eso, debes valorar y escuchar los comentarios y críticas de los demás, pudiendo rescatar aquellos aspectos que sirven para tu crecimiento. Busca instancias de feedback, entregando siempre tu opinión de manera constructiva, fundamentada y coherente, con el propósito de ayudar a tus compañeras. Estos comentarios los debes hacer de manera honesta, empática e inmediata.
-
-Además, busca trabajar de manera coordinada y contribuye al objetivo común, entrega ideas para la construcción de la red social y respeta el trabaja de tus compañeras. Para esto, entrega tu trabajo a tiempo y colabora con el objetivo final del proyecto, lo que puede implicar ayudar a los demás miembros del squad con sus pendientes, con el fin de entregar una red social de calidad.
 
 
 
