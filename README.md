@@ -125,7 +125,7 @@ Para completar el proyecto deberás:  
 * Asegurarte que el producto final en código siga los lineamientos del diseño.
 * Realizar sesiones de testing con el producto en HTML.
 
-## Habilidades Blandas
+### Habilidades Blandas
 
 Para completar este proyecto deberás trabajar en equipo, para esto tienes que 
 trabajar de manera colaborativa con tu pareja. Esto es un gran desafío, 
@@ -186,7 +186,7 @@ decisiones:
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
 
-### Hacker edition
+## Hacker edition
 
 Un gran desafío de este proyecto es la coordinación y el trabajo en equipo. Para 
 lograr esto con éxito debes apoyarte en las habilidades de comunicación y de dar 
