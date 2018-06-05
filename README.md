@@ -263,33 +263,32 @@ implementados correctamente. (Hint: testing)
 
 ## Evaluación
 
-UX
+### Tech
 
+...
 
+### UX
 
-User Centricity: 3/4
+* User Centricity: 3/4
+* Entrevistas: 2/3
+* Testing: 2 / 3
+* User flow: 2
+* Jerarquía: 3/4
+* Alineación: 3/4
+* Contraste: 3
+* Color: 3
+* Tipografía: 3
 
-Entrevistas: 2/3
+### Habilidades Blandas
 
-Testing: 2 / 3
+Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus 
+habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-User flow: 2
-
-Jerarquía: 3/4
-
-Alineación: 3/4
-
-Contraste: 3
-
-Color: 3
-
-Tipografía: 3
-
-
-
-
-Habilidades Blandas
-
-
-
-Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus habilidades blandas. Te aconsejamos revisar la rúbrica.Planificación y organización: 3 Autoaprendizaje: 3 Solución de problemas: 3 Dar y recibir feedback: 3 Adaptabilidad: 3 Trabajo en equipo: 3 Comunicación eficaz: 3 Presentaciones: 3
+* Planificación y organización: 3 
+* Autoaprendizaje: 3 
+* Solución de problemas: 3 
+* Dar y recibir feedback: 3 
+* Adaptabilidad: 3 
+* Trabajo en equipo: 3 
+* Comunicación eficaz: 3 
+* Presentaciones: 3
