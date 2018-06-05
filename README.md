@@ -161,6 +161,33 @@ lograste responder en este proceso. Como siempre, sabemos que presentar puede
 ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás 
 lo comprendan.
 
+## Implementación
+
+El corazón de este proyecto incluye 3 cosas nuevas:
+
+* Que el sitio sea responsive, se vea bien en distintos dispositivos haciendo 
+  un gran enfoque en móviles debido a la naturaleza del producto.
+* Soportar múltiples vistas/rutas, para esto puedes crear diversos HTMLs, 
+  manipular el DOM y hacer el render en base a condiciones, usar librerías para
+  manejar rutas o la que tu encuentres.
+* Alterar y persistir datos, ahora los datos que agregues o modifiques deberán
+  persistir a lo largo de la aplicación, te recomendamos que uses 
+  [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web) 
+  como primera opción para resolver este desafío, aun así, tu
+  puedes optar por la que se acomode más a tu equipo.
+
+Adicional a esto, algunas tareas nuevas se podrían agregar en base a tus 
+decisiones:
+
+* Definir el boilerplate a usar, recuerda que puedes usar una librería o 
+  framework si así lo desea el equipo, al navegar en internet te darás cuenta
+  que algunas de estas construyen un boilerplate por ti, tenlo presente al 
+  iniciar tu proyecto.
+* Tests, recuerda que no hay un setup de tests definido, esto podrá depender de
+  la estructura de tu proyecto también, pero algo que no debes de olvidar es 
+  pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
+  nomenclatura de tu lógica.
+
 ### ¿Qué se requiere?
 
 - Trabajar en squad
@@ -169,9 +196,6 @@ lo comprendan.
 - Diseño mobile friendly
 - Desplegar el producto en Github Pages
 - Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar [Firebase](https://firebase.google.com/).
-
-### Tópicos a cubrir
-
 
 
 ### Entregables
@@ -222,13 +246,6 @@ Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
 
 La idea para este producto es que el producto a desarrollar siga los lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo largo de la implementación que los elementos propuestos están siendo implementados correctamente. (Hint: testing)
-
-
-
-### Parte Obligatoria
-
-
-
 
 
 
