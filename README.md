@@ -1,10 +1,23 @@
-## Red Social
+# Red Social
 
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos vivir sin ellas. Dado este contexto, un emprendedor muy visionario nos ha encargado crear una red social. No nos da mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemos la que mejor podamos y que luego lo convenzamos de que nuestra red social será la más exitosa.
+## Preámbulo
 
-Este emprendedor, además, sabe que los creadores de productos tienen que pensar siempre en los usuarios y espera que tengas en cuenta lo que necesitan los usuarios al momento de crear este producto.
+Un emprendedor muy visionario nos ha encargado crear una red social. No nos da 
+mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemos 
+la que mejor podamos y que luego lo convenzamos de que nuestra red social será 
+la más exitosa.
 
-Un ejemplo: a este emprendedor le presentaron un caso de una red social para químicos. En esta red social los químicos postean artículos sobre sus investigaciones y pueden encontrar el contenido de acuerdo a lo más popular, lo reciente o lo más comentado. Además, pueden comentar en los artículos de sus colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
+## Introducción
+
+Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han
+invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos 
+vivir sin ellas. 
+
+Un ejemplo, en una ronda de financiamiento se presentó un caso de una red social 
+para químicos. En esta red social los químicos postean artículos sobre sus 
+investigaciones y pueden encontrar el contenido de acuerdo a lo más popular, lo 
+reciente o lo más comentado. Además, pueden comentar en los artículos de sus 
+colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
 
 ### ¿Qué se requiere?
 
