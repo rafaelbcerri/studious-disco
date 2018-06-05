@@ -91,6 +91,9 @@ La interfaz debe permitir al usuario:
       usuario inválido.
     + Al recargar el sitio, debe de verificar si el usuario está logueado para 
       mostrar directamente el muro o mostrar el inicio de sesión.
+  - Perspectiva de interfaz: 
+    
+    ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
 * Ver el muro/timeline de la red social
   - Validaciones:
     + Al apretar el botón de publicar debe validar que exista texto en el input.
@@ -104,6 +107,9 @@ La interfaz debe permitir al usuario:
     + Al darle guardar debe cambiar de vuelta a un texto normal pero con la 
       información editada
     + Al recargar la página debo de poder ver los textos editados
+  - Perspectiva de interfaz: 
+    
+    ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
 
 Además, la interfaz deberá seguir los fundamentos de visual design como
 contraste, alineación, jerarquía, entre otros.
