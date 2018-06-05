@@ -125,7 +125,7 @@ Para completar el proyecto deberás:  
 * Asegurarte que el producto final en código siga los lineamientos del diseño.
 * Realizar sesiones de testing con el producto en HTML.
 
-### Habilidades Blandas
+## Habilidades Blandas
 
 Para completar este proyecto deberás trabajar en equipo, para esto tienes que 
 trabajar de manera colaborativa con tu pareja. Esto es un gran desafío, 
