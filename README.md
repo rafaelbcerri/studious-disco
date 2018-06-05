@@ -19,6 +19,148 @@ investigaciones y pueden encontrar el contenido de acuerdo a lo más popular, lo
 reciente o lo más comentado. Además, pueden comentar en los artículos de sus 
 colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
 
+## Objetivos
+
+El objetivo principal de aprendizaje de este proyecto es construir una
+_interfaz_ web responsive donde podamos leer y escribir data, además de agregar
+más de una sola vista de interacción.
+
+Tópicos: _mobile-first_, _multiple-views_, _crud_, _storage_, ...
+
+Habilidades blandas:
+
+* Esperamos que en este proyecto puedas pensar en el cliente, entendiendo cuál
+  es la red social que cambiará y alegrará sus vidas.
+* Nos interesa que logres entender a las necesidades de los usuarios para los
+  que crearás el producto y los ayudes a resolver esas necesidades.
+* Además, que puedas trabajar de manera colaborativa con tu pareja, buscando
+  feedback constante para realizar el proyecto.
+
+## Consideraciones generales
+
+Este proyecto se debe "resolver" en parejas.
+
+La lógica del proyecto debe estar implementada completamente en JavaScript
+(ES6), HTML y CSS. En este proyecto SI está permitido usar librerías o
+frameworks, pero no es obligatorio :smiley:.
+
+Debido a que las redes sociales son ampliamente utilizadas en el móvil, es 
+obligatorio que sea responsive, es decir, que se vea bien tanto en dispositivos
+grandes (computadoras, laptops, etc) y pequeños (tablets, celulares, etc). 
+Sugerimos llevar a cabo la técnica de `mobile first` para el desarrollo de tu
+producto.
+
+Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
+y _lines_, y un mínimo del 50% de _branches_. En este proyecto, no contamos con
+un _boilerplate_, por lo cual, deberás de definir la estructura de carpetas y 
+archivos que consideres necesaria, puedes guiarte de las trabajadas en los 
+proyectos anteriores. Por ende, los tests y el setup necesario para ejecutarlos
+serán realizados por ti.
+
+Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
+repositorio.
+
+## Parte obligatoria
+
+### Definición del producto
+
+En el `README.md` cuéntanos cómo pensaste y te acercaste a los usuarios al
+desarrollar tu producto y cuál fue tu proceso para definir el producto final a
+nivel de experiencia y de interfaz. Si tienes fotos de entrevistas,
+cuestionarios y/o sketches compártelos. Además, detalla:
+
+* quiénes son los principales usarios de producto
+* cuáles son los objetivos de estos usarios en relación con el producto
+* cuáles son los dato más relevantes que el usuario quiere ver en la interfaz y
+  por qué. Cómo los descubriste.
+* cuándo es que el usuario revisar normalmente estos datos
+* cómo crees que el producto que estás creando les está resolviendo sus
+  problemas
+* cómo fue tu proceso de diseño
+
+### UI
+
+La interfaz debe permitir al usuario:
+
+* Iniciar sesión
+  - Validaciones:
+    + El input de usuario debe ser requerido
+    + El input password debe ser requerido
+    + El nombre de usuario debe ser un correo válido
+    + Lo que tipeo en el input de password debe ser secreto
+    + Los mensajes de error deben aparecer en la parte inferior de los inputs
+  - Comportamiento:
+    + Cuando presiono el botón login debe validarse el formulario en caso todo 
+      esté bien el sistema debe redireccionar a nuestro muro.
+    + En caso la validación falle debe mostrar los campos de error y no debe 
+      redireccionar al muro.
+    + El sistema debe tener una lista de usuarios válidos y sólo se podrá 
+      ingresar con esos usuarios. Cualquier otro campo debe decir que es un 
+      usuario inválido.
+    + Al recargar el sitio, debe de verificar si el usuario está logueado para 
+      mostrar directamente el muro o mostrar el inicio de sesión.
+* Ver el muro/timeline de la red social
+  - Validaciones:
+    + Al apretar el botón de publicar debe validar que exista texto en el input.
+  - Comportamiento:
+    + Debo poder publicar un post
+    + Debo poder eliminar un post específico
+    + Debo poder filtrar los posts solo para mis amigos y para todo público
+    + Debe confirmar antes de eliminar un post
+    + Al darle click en el botón editar debe cambiar el texto por un input con 
+      texto y cambiar el link por guardar
+    + Al darle guardar debe cambiar de vuelta a un texto normal pero con la 
+      información editada
+    + Al recargar la página debo de poder ver los textos editados
+
+Además, la interfaz deberá seguir los fundamentos de visual design como
+contraste, alineación, jerarquía, entre otros.
+
+### UX
+
+Para completar el proyecto deberás:  
+
+* Hacer un benchamark de las principales redes sociales
+* Realizar al menos 2 o 3 entrevistas con usuarios  
+* Hacer un  prototipo de alta fidelidad
+* Testear el prototipo con usuarios
+* Asegurarte que el producto final en código siga los lineamientos del diseño.
+* Realizar sesiones de testing con el producto en HTML.
+
+### Habilidades Blandas
+
+Para completar este proyecto deberás trabajar en equipo, para esto tienes que 
+trabajar de manera colaborativa con tu pareja. Esto es un gran desafío, 
+porque coordinarse entre equipo no es una tarea fácil.
+
+Igual que en otros proyectos, debes planificarte, pero para hacer una 
+planificación que sea útil para el equipo, no sólo deberás enumerar las tareas, 
+sino que distribuirlas, considerando los recursos y el tiempo que dispones. La 
+organización y gestión del proyecto son claves para el éxito, recuerda priorizar 
+tus tareas.
+
+Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e 
+investigar. Tienes la oportunidad de que un emprendedor invierta en tu idea, 
+para eso no sólo debes intentar conocer sus intereses, sino mostrar un producto 
+que tenga viabilidad y que demuestra conocer a sus usuarios.
+
+Para que tu red social responda a las necesidades de sus usuarios, probablemente 
+deberás adquirir nuevos conocimientos para implementar sus preferencias. Para 
+esto, se independiente en adquirir nuevos conocimiento que sean útiles para tu 
+proyecto y te ayuden a llevarlo al siguiente nivel. Además, esperamos que logren 
+realizar el hacker edition, de esta manera podrás llevar tu producto al 
+siguiente nivel.
+
+Para este proyecto busca instancias de code review, donde deberás buscar 
+feedback de tu código con otro squad, para que puedas mejorar el producto. 
+Mientras más feedback recibas, mejor será su producto.
+
+Para finalizar, deberás presentar tu red social, para esto debes presentar el 
+proyecto que creaste, también al usuario que escogiste y las necesidades que 
+lograste responder en este proceso. Como siempre, sabemos que presentar puede 
+ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás 
+lo comprendan.
+
 ### ¿Qué se requiere?
 
 - Trabajar en squad
@@ -27,17 +169,6 @@ colegas y pueden filtrar artículos de acuerdo a determinadas etiquetas.
 - Diseño mobile friendly
 - Desplegar el producto en Github Pages
 - Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar [Firebase](https://firebase.google.com/).
-
-
-### Objetivos
-
-
-
-###  
-
-### Consideraciones generales
-
-
 
 ### Tópicos a cubrir
 
@@ -98,31 +229,6 @@ La idea para este producto es que el producto a desarrollar siga los lineamiento
 
 
 
-UX:
-
-Para completar el desafío deberás:  
-
-- Hacer un benchamark de las principales redes sociales
-- Realizar al menos 2 o 3 entrevistas con usuarios  
-- Hacer un  prototipo de alta fidelidad
-- Testear el prototipo con usuarios
-- Asegurarte que el producto final en código siga los lineamientos del diseño.
-- Realizar sesiones de testing con el producto en HTML.
-
-
-Habilidades Blandas:
-
-Para completar este proyecto deberás trabajar en equipo, para esto tienes que trabajar de manera colaborativa con todo tu squad. Esto es un gran desafío, porque coordinarse entre varias personas no es una tarea fácil.
-
-Igual que en otros proyectos, debes planificarte, pero para hacer una planificación que sea útil para el squad, no sólo deberás enumerar las tareas, sino que distribuirlas, considerando los recursos y el tiempo que dispones. La organización y gestión del proyecto son claves para el éxito, recuerda priorizar tus tareas.
-
-Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e investigar. Tienes la oportunidad de que un emprendedor invierta en tu idea, para eso no sólo debes intentar conocer sus intereses, sino mostrar un producto que tenga viabilidad y que demuestra conocer a sus usuarios.
-
-Para que tu red social responda a las necesidades de sus usuarios, probablemente deberás adquirir nuevos conocimientos para implementar sus preferencias. Para esto, se independiente en adquirir nuevos conocimiento que sean útiles para tu proyecto y te ayuden a llevarlo al siguiente nivel. Además, esperamos que logren realizar el hacker edition, de esta manera podrás llevar tu producto al siguiente nivel.
-
-Para este proyecto busca instancias de code review, donde deberás buscar feedback de tu código con otro squad, para que puedas mejorar el producto. Mientras más feedback recibas, mejor será su producto.
-
-Para finalizar, deberás presentar tu red social, para esto debes presentar el producto que creaste, también al usuario que escogiste y las necesidades que lograste responder en este proceso. Como siempre, sabemos que presentar puede ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás lo comprendan.
 
 
 
@@ -146,9 +252,6 @@ Además, busca trabajar de manera coordinada y contribuye al objetivo común, en
 
 El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages, Firebase o Heroku.
 
-
-
-###  
 
 ### Evaluación
 
