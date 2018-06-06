@@ -70,50 +70,6 @@ nivel de experiencia y de interfaz. Si tienes fotos de entrevistas,
 cuestionarios y/o sketches compártelos. La especificación de ésta la encontrarás 
 en el apartado de entregables.
 
-### UI
-
-La interfaz debe permitir al usuario:
-
-* Iniciar sesión
-  - Validaciones:
-    + El input de usuario debe ser requerido
-    + El input password debe ser requerido
-    + El nombre de usuario debe ser un correo válido
-    + Lo que tipeo en el input de password debe ser secreto
-    + Los mensajes de error deben aparecer en la parte inferior de los inputs
-  - Comportamiento:
-    + Cuando presiono el botón login debe validarse el formulario en caso todo 
-      esté bien el sistema debe redireccionar a nuestro muro.
-    + En caso la validación falle debe mostrar los campos de error y no debe 
-      redireccionar al muro.
-    + El sistema debe tener una lista de usuarios válidos y sólo se podrá 
-      ingresar con esos usuarios. Cualquier otro campo debe decir que es un 
-      usuario inválido.
-    + Al recargar el sitio, debe de verificar si el usuario está logueado para 
-      mostrar directamente el muro o mostrar el inicio de sesión.
-  - Perspectiva de interfaz: 
-    
-    ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
-* Ver el muro/timeline de la red social
-  - Validaciones:
-    + Al apretar el botón de publicar debe validar que exista texto en el input.
-  - Comportamiento:
-    + Debo poder publicar un post
-    + Debo poder eliminar un post específico
-    + Debo poder filtrar los posts solo para mis amigos y para todo público
-    + Debe confirmar antes de eliminar un post
-    + Al darle click en el botón editar debe cambiar el texto por un input con 
-      texto y cambiar el link por guardar
-    + Al darle guardar debe cambiar de vuelta a un texto normal pero con la 
-      información editada
-    + Al recargar la página debo de poder ver los textos editados
-  - Perspectiva de interfaz: 
-    
-    ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
-
-Además, la interfaz deberá seguir los fundamentos de visual design como
-contraste, alineación, jerarquía, entre otros.
-
 ### UX
 
 Para completar el proyecto deberás:  
@@ -123,7 +79,49 @@ Para completar el proyecto deberás:  
 * Hacer un  prototipo de alta fidelidad
 * Testear el prototipo con usuarios
 * Asegurarte que el producto final en código siga los lineamientos del diseño.
-* Realizar sesiones de testing con el producto en HTML.
+* Realizar sesiones de testing con el producto en HTML
+
+### UI
+
+Si el producto definido requiere que los usuarios tengan cuenta en la red
+social, la interfaz debe permitir lo siguiente:
+
+* Crear una cuenta
+* Iniciar sesión
+
+Ambas opciones deberán tener lo siguiente:  
+
+  - Validaciones:
+    + No debe haber usuarios repetidos
+    + La cuenta de usuario debe ser un correo electrónico válido
+    + Lo que tipeo en el input de password debe ser secreto
+
+  - Comportamiento:
+    + Al enviarse un formulario de registro o inicio de sesión debe validarse
+      el formulario
+    + En caso haya errores, el sistema debe mostrar mensajes de error para
+      ayudar al usuario a superar estos errores
+    + La aplicación solo permitirá acceder a usuarios con cuentas válidas
+    + Al recargar la aplicación, se debe de verificar si el usuario está
+      logueado para poder mostrarle el contenido privado 
+
+  - Perspectiva de interfaz: 
+    
+    ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
+
+Otras consideraciones:
+
+  - La aplicación no debe dejar hacer publicaciones vacías (textos, fotos,
+    videos, posts, etc). 
+  - El usuario debe poder agregar, editar y eliminar contenido de la red
+    social
+  - El usuario debe poder definir la privacidad de lo que pública
+  - Al editar contenido, el contenido editado verá automáticamente, luego de
+    darle guardar
+  - Al recargar la página debo de poder ver los textos editados
+
+Además, la interfaz deberá seguir los fundamentos de visual design como
+contraste, alineación, jerarquía, entre otros.
 
 ### Habilidades Blandas
 
