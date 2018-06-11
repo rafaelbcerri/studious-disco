@@ -120,7 +120,7 @@ contraste, alineación, jerarquía, entre otros.
 
 ## Implementación
 
-El corazón de este proyecto incluye 3 cosas nuevas:
+El corazón de este proyecto incluye:
 
 * Se deben separar la manipulación del DOM de la lógica (Separación de responsabilidades)
 * En la implementación obligatoria se debe hacer uso sólo de Vanilla JavaScript
@@ -279,30 +279,57 @@ lo comprendan.
 
 ### Tech
 
-...
-
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| **JavaScript** | |
+| Estilo | 0
+| Nomenclatura/semántica | 0
+| Funciones/modularidad | 0
+| Estructuras de datos | 0
+| Tests | 0
+| **HTML** | |
+| Validación | 0
+| Estilo | 0
+| Semántica | 0
+| SEO | 0
+| **CSS** | |
+| DRY | 0
+| Responsive | 0
+| **SCM** | |
+| Git | 0
+| GitHub | 0
+| **CS** | |
+| Lógica | 0
+| Arquitectura | 0
+| Patrones/paradigmas | 0
 ### UX
 
-* User Centricity: 3/4
-* Entrevistas: 2/3
-* Testing: 2 / 3
-* User flow: 2
-* Jerarquía: 3/4
-* Alineación: 3/4
-* Contraste: 3
-* Color: 3
-* Tipografía: 3
-
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| User Centricity | 3 
+| Entrevistas | 2 |
+| Testing | 2
+| User Flow | 2
+| Jerarquía | 3
+| Alineación | 3
+| Contraste | 3
+| Color | 3
+| Tipografía | 3
 ### Habilidades Blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus 
 habilidades blandas. Te aconsejamos revisar la rúbrica:
 
-* Planificación y organización: 3 
-* Autoaprendizaje: 3 
-* Solución de problemas: 3 
-* Dar y recibir feedback: 3 
-* Adaptabilidad: 3 
-* Trabajo en equipo: 3 
-* Comunicación eficaz: 3 
-* Presentaciones: 3
+| Habilidad | Nivel esperado |
+|-----------|----------------|
+| Planificación y organización | 3
+| Autoaprendizaje | 3
+| Solución de Problemas | 3
+| Dar y recibir feedback | 3
+| Adaptabilidad | 3
+| Trabajo en equipo | 3
+| Comunicación eficaz | 3
+| Presentaciones | 3
+
+
+
