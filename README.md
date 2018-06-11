@@ -75,6 +75,8 @@ en el apartado de entregables.
 La interfaz debe permitir al usuario:
 
 * Iniciar sesión
+  - Login con Firebase:
+    + Autenticación con Facebook - Google
   - Validaciones:
     + El input de usuario debe ser requerido
     + El input password debe ser requerido
@@ -99,6 +101,8 @@ La interfaz debe permitir al usuario:
     + Al apretar el botón de publicar debe validar que exista texto en el input.
   - Comportamiento:
     + Debo poder publicar un post
+    + Debo poder poner like a una publicación
+    + Debo poder llevar un conteo de los likes
     + Debo poder eliminar un post específico
     + Debo poder filtrar los posts solo para mis amigos y para todo público
     + Debe confirmar antes de eliminar un post
@@ -114,60 +118,14 @@ La interfaz debe permitir al usuario:
 Además, la interfaz deberá seguir los fundamentos de visual design como
 contraste, alineación, jerarquía, entre otros.
 
-### UX
-
-Para completar el proyecto deberás:  
-
-* Hacer un benchamark de las principales redes sociales
-* Realizar al menos 2 o 3 entrevistas con usuarios  
-* Hacer un  prototipo de alta fidelidad
-* Testear el prototipo con usuarios
-* Asegurarte que el producto final en código siga los lineamientos del diseño.
-* Realizar sesiones de testing con el producto en HTML.
-
-### Habilidades Blandas
-
-Para completar este proyecto deberás trabajar en equipo, para esto tienes que 
-trabajar de manera colaborativa con tu pareja. Esto es un gran desafío, 
-porque coordinarse entre equipo no es una tarea fácil.
-
-Igual que en otros proyectos, debes planificarte, pero para hacer una 
-planificación que sea útil para el equipo, no sólo deberás enumerar las tareas, 
-sino que distribuirlas, considerando los recursos y el tiempo que dispones. La 
-organización y gestión del proyecto son claves para el éxito, recuerda priorizar 
-tus tareas.
-
-Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e 
-investigar. Tienes la oportunidad de que un emprendedor invierta en tu idea, 
-para eso no sólo debes intentar conocer sus intereses, sino mostrar un producto 
-que tenga viabilidad y que demuestra conocer a sus usuarios.
-
-Para que tu red social responda a las necesidades de sus usuarios, probablemente 
-deberás adquirir nuevos conocimientos para implementar sus preferencias. Para 
-esto, se independiente en adquirir nuevos conocimiento que sean útiles para tu 
-proyecto y te ayuden a llevarlo al siguiente nivel. Además, esperamos que logren 
-realizar el hacker edition, de esta manera podrás llevar tu producto al 
-siguiente nivel.
-
-Para este proyecto busca instancias de code review, donde deberás buscar 
-feedback de tu código con otro squad, para que puedas mejorar el producto. 
-Mientras más feedback recibas, mejor será su producto.
-
-Para finalizar, deberás presentar tu red social, para esto debes presentar el 
-proyecto que creaste, también al usuario que escogiste y las necesidades que 
-lograste responder en este proceso. Como siempre, sabemos que presentar puede 
-ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás 
-lo comprendan.
-
 ## Implementación
 
 El corazón de este proyecto incluye 3 cosas nuevas:
 
+* Se deben separar la manipulación del DOM de la lógica (Separación de responsabilidades)
+* En la implementación obligatoria se debe hacer uso sólo de Vanilla JavaScript
 * Que el sitio sea responsive, se vea bien en distintos dispositivos haciendo 
   un gran enfoque en móviles debido a la naturaleza del producto.
-* Soportar múltiples vistas/rutas, para esto puedes crear diversos HTMLs, 
-  manipular el DOM y hacer el render en base a condiciones, usar librerías para
-  manejar rutas o la que tu encuentres.
 * Alterar y persistir datos, ahora los datos que agregues o modifiques deberán
   persistir a lo largo de la aplicación, te recomendamos que uses 
   [`localStorage`](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web) 
@@ -185,6 +143,18 @@ decisiones:
   la estructura de tu proyecto también, pero algo que no debes de olvidar es 
   pensar en éstas pruebas, incluso te podrían ayudar a definir la estructura y
   nomenclatura de tu lógica.
+
+### UX
+
+Para completar el proyecto deberás:  
+
+* Hacer un benchamark de las principales redes sociales
+* Realizar al menos 2 o 3 entrevistas con usuarios  
+* Hacer un  prototipo de alta fidelidad
+* Testear el prototipo con usuarios
+* Asegurarte que el producto final en código siga los lineamientos del diseño.
+* Realizar sesiones de testing con el producto en HTML.
+
 
 ## Hacker edition
 
@@ -218,7 +188,9 @@ Features/características extra sugeridas:
   implementar una base de datos pero el tiempo podría jugar en contra, para ello
   existen algunos servicios como [Firebase](https://firebase.google.com/products/database/) 
   que te proveen soluciones rápidas a este problema y solo usando su SDK :scream:.
-
+* Soportar múltiples vistas/rutas, para esto puedes crear diversos HTMLs, 
+  manipular el DOM y hacer el render en base a condiciones, usar librerías para
+  manejar rutas o la que tu encuentres.
 ## Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
@@ -265,7 +237,43 @@ de visual design.
 La idea para este producto es que el producto a desarrollar siga los 
 lineamientos propuestos en el diseño de la interfaz de usuario. Asegúrate a lo 
 largo de la implementación que los elementos propuestos están siendo 
-implementados correctamente. (Hint: testing)
+implementados correctamente. (Hint: testing
+
+### Habilidades Blandas
+
+Para completar este proyecto deberás trabajar en equipo, para esto tienes que 
+trabajar de manera colaborativa con tu pareja. Esto es un gran desafío, 
+porque coordinarse entre equipo no es una tarea fácil.
+
+Igual que en otros proyectos, debes planificarte, pero para hacer una 
+planificación que sea útil para el equipo, no sólo deberás enumerar las tareas, 
+sino que distribuirlas, considerando los recursos y el tiempo que dispones. La 
+organización y gestión del proyecto son claves para el éxito, recuerda priorizar 
+tus tareas.
+
+Este proyecto tiene el desafío de conocer a sus usuarios, para eso debes salir e 
+investigar. Tienes la oportunidad de que un emprendedor invierta en tu idea, 
+para eso no sólo debes intentar conocer sus intereses, sino mostrar un producto 
+que tenga viabilidad y que demuestra conocer a sus usuarios.
+
+Para que tu red social responda a las necesidades de sus usuarios, probablemente 
+deberás adquirir nuevos conocimientos para implementar sus preferencias. Para 
+esto, se independiente en adquirir nuevos conocimiento que sean útiles para tu 
+proyecto y te ayuden a llevarlo al siguiente nivel. Además, esperamos que logren 
+realizar el hacker edition, de esta manera podrás llevar tu producto al 
+siguiente nivel.
+
+Para este proyecto busca instancias de code review, donde deberás buscar 
+feedback de tu código con otro squad, para que puedas mejorar el producto. 
+Mientras más feedback recibas, mejor será su producto.
+
+Para finalizar, deberás presentar tu red social, para esto debes presentar el 
+proyecto que creaste, también al usuario que escogiste y las necesidades que 
+lograste responder en este proceso. Como siempre, sabemos que presentar puede 
+ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás 
+lo comprendan.
+
+
 
 ## Evaluación
 
