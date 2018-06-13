@@ -120,8 +120,17 @@ Otras consideraciones:
     darle guardar
   - Al recargar la página debo de poder ver los textos editados
 
-Además, la interfaz deberá seguir los fundamentos de visual design como
-contraste, alineación, jerarquía, entre otros.
+Para armar las interfaces visuales utiliza como base alguna de estas guías de
+componentes:
+
+  - [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
+  - [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
+  - [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
+  - [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
+
+Personaliza estas guías con los colores y/o tipografías que creas convenientes.
+Recuerda que al hacer estas adaptaciones deberás seguir los fundamentos de
+visual design como contraste, alineación, jerarquía, entre otros.
 
 ### Habilidades Blandas
 
