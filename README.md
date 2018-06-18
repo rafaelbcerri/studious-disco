@@ -72,29 +72,26 @@ en el apartado de entregables.
 
 ### UI
 
-La interfaz debe permitir al usuario:
+Si el producto definido requiere que los usuarios tengan cuenta en la red
+social, la interfaz debe permitir lo siguiente:
 
+* Crear una cuenta
 * Iniciar sesión
   - Login con Firebase:
     + Autenticación con Facebook - Google
   - Validaciones:
-    + El input de usuario debe ser requerido
-    + El input password debe ser requerido
-    + El nombre de usuario debe ser un correo válido
+    + No debe haber usuarios repetidos
+    + La cuenta de usuario debe ser un correo electrónico válido
     + Lo que tipeo en el input de password debe ser secreto
-    + Los mensajes de error deben aparecer en la parte inferior de los inputs
   - Comportamiento:
-    + Cuando presiono el botón login debe validarse el formulario en caso todo 
-      esté bien el sistema debe redireccionar a nuestro muro.
-    + En caso la validación falle debe mostrar los campos de error y no debe 
-      redireccionar al muro.
-    + El sistema debe tener una lista de usuarios válidos y sólo se podrá 
-      ingresar con esos usuarios. Cualquier otro campo debe decir que es un 
-      usuario inválido.
-    + Al recargar el sitio, debe de verificar si el usuario está logueado para 
-      mostrar directamente el muro o mostrar el inicio de sesión.
-  - Perspectiva de interfaz: 
-    
+    + Al enviarse un formulario de registro o inicio de sesión debe validarse
+      el formulario
+    + En caso haya errores, el sistema debe mostrar mensajes de error para
+      ayudar al usuario a superar estos errores
+    + La aplicación solo permitirá acceder a usuarios con cuentas válidas
+    + Al recargar la aplicación, se debe de verificar si el usuario está
+      logueado para poder mostrarle el contenido privado 
+  - Perspectiva de interfaz:
     ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
 * Ver el muro/timeline de la red social
   - Validaciones:
@@ -111,12 +108,31 @@ La interfaz debe permitir al usuario:
     + Al darle guardar debe cambiar de vuelta a un texto normal pero con la 
       información editada
     + Al recargar la página debo de poder ver los textos editados
-  - Perspectiva de interfaz: 
-    
+  - Perspectiva de interfaz:
     ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
 
-Además, la interfaz deberá seguir los fundamentos de visual design como
-contraste, alineación, jerarquía, entre otros.
+Otras consideraciones:
+
+- La aplicación no debe dejar hacer publicaciones vacías (textos, fotos,
+  videos, posts, etc). 
+- El usuario debe poder agregar, editar y eliminar contenido de la red
+  social
+- El usuario debe poder definir la privacidad de lo que pública
+- Al editar contenido, el contenido editado verá automáticamente, luego de
+  darle guardar
+- Al recargar la página debo de poder ver los textos editados
+
+Para armar las interfaces visuales utiliza como base alguna de estas guías de
+componentes:
+
+- [Guía Desktop 1](https://www.figma.com/file/F3aUqpHWOfZsEQifTPIleXo6/material-kit-free)
+- [Guía Desktop 2](https://www.figma.com/file/S39H0B1LOnaVICIUiApFTfoP/_Style-Guide---Desktop---Style-Guide)
+- [Guía Mobile 1](https://www.figma.com/file/00VTwmTNvLVaBLkxrMFbT8/Google-Material-Design)
+- [Guía Mobile 2](https://www.figma.com/file/O2Xraz3mraQHvevNsicMl91V/ejemplos-2)
+
+Personaliza estas guías con los colores y/o tipografías que creas convenientes.
+Recuerda que al hacer estas adaptaciones deberás seguir los fundamentos de
+visual design como contraste, alineación, jerarquía, entre otros.
 
 ## Implementación
 
@@ -155,7 +171,6 @@ Para completar el proyecto deberás:  
 * Asegurarte que el producto final en código siga los lineamientos del diseño.
 * Realizar sesiones de testing con el producto en HTML.
 
-
 ## Hacker edition
 
 Un gran desafío de este proyecto es la coordinación y el trabajo en equipo. Para 
@@ -191,6 +206,7 @@ Features/características extra sugeridas:
 * Soportar múltiples vistas/rutas, para esto puedes crear diversos HTMLs, 
   manipular el DOM y hacer el render en base a condiciones, usar librerías para
   manejar rutas o la que tu encuentres.
+
 ## Entrega
 
 El proyecto será _entregado_ subiendo tu código a GitHub (`commit`/`push`) y la
@@ -273,8 +289,6 @@ lograste responder en este proceso. Como siempre, sabemos que presentar puede
 ser una instancia difícil, esperamos que logres mostrar tu trabajo y los demás 
 lo comprendan.
 
-
-
 ## Evaluación
 
 ### Tech
@@ -302,6 +316,7 @@ lo comprendan.
 | Lógica | 0
 | Arquitectura | 0
 | Patrones/paradigmas | 0
+
 ### UX
 
 | Habilidad | Nivel esperado |
@@ -315,6 +330,7 @@ lo comprendan.
 | Contraste | 3
 | Color | 3
 | Tipografía | 3
+
 ### Habilidades Blandas
 
 Para este proyecto esperamos que ya hayas alcanzado el nivel 3 en todas tus 
@@ -330,6 +346,3 @@ habilidades blandas. Te aconsejamos revisar la rúbrica:
 | Trabajo en equipo | 3
 | Comunicación eficaz | 3
 | Presentaciones | 3
-
-
-
