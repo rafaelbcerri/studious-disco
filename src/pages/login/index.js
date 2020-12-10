@@ -1,5 +1,5 @@
 import { login } from '../../services/firebase.js';
-import { onNavigate } from '../../router.js';
+import { onNavigate } from '../../utils/router.js';
 
 export const Login = () => {
   const rootElement = document.createElement('div');
