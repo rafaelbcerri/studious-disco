@@ -1,3 +1,6 @@
+import { signup } from '../../services/firebase.js';
+import { onNavigate } from '../../router.js';
+
 export const Signup = () => {
   const rootElement = document.createElement('div');
 
@@ -19,10 +22,8 @@ export const Signup = () => {
     const email = rootElement.querySelector('#email').value;
     const password = rootElement.querySelector('#password').value;
 
-    firebase
-      .auth()
-      .createUserWithEmailAndPassword(email, password)
-      .then((user) => { console.log(user) })
+    signup(email, password)
+      .then(() => onNavigate('/timeline'))
   })
 
   return rootElement;
